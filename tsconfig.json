@@ -4,7 +4,8 @@
         "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "removeComments": true //remove os comentários no código dos arquivos .ts antes de gerar os arquivos .js em dist
+        "removeComments": true, //remove os comentários no código dos arquivos .ts antes de gerar os arquivos .js em dist
+        "strictNullChecks": true //strictNullChecks impede que variáveis sejam atribuídas com null ou undefined a menos que sejam tipadas para aceitar esses valores.
     },
     "include": ["app/**/*"]
 }
